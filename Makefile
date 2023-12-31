@@ -19,7 +19,7 @@ endif
 CXXFLAGS = -Wall -Wextra -std=c++20 -DUNICODE -D_UNICODE -O2 $(ARCHITECTURE_FLAGS)
 LDFLAGS = $(ARCHITECTURE_FLAGS)
 
-ROOT = alphares
+ROOT = betares
 BIN = $(ROOT)/bin
 LIB = $(ROOT)/lib
 SRC = $(ROOT)/src
@@ -32,7 +32,7 @@ RES_OBJ = $(RESOURCES)/resources.o
 # Source and object files
 SOURCES = $(wildcard $(SRC)/*.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
-EXECUTABLE = alphares
+EXECUTABLE = betares
 
 # Library
 LIBS = -lgdi32 -luser32 -mwindows
