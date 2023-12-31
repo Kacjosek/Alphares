@@ -1,5 +1,5 @@
 #include "../include/resources.h"
 
-IDR_ICON ICON "../asset/alphares.ico"
+IDR_ICON ICON "../asset/Vertical Lockup on White Background.png"
 
 LANGUAGE 9, 1
