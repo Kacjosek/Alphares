@@ -36,11 +36,11 @@ void Window::center(DWORD style, DWORD exStyle) {
 }
 
 bool Window::create(const wchar_t* title, int width, int height) {
-    this->registerClass(L"alphares");
+    this->registerClass(L"betares");
 
     this->hWnd = CreateWindowEx(
         0,
-        L"alphares",
+        L"betares",
         title,
         WINDOW_STYLE,
         CW_USEDEFAULT,
